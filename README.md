@@ -51,8 +51,7 @@ from sklearn.ensemble import IsolationForest
 
 # Split the data into training and testing sets
 X_train, X_test = train_test_split(data[['power_consumption']], test_size=0.2, random_state=42)
-
-
+```python
 ### Repository Structure
 - `README.md`: This readme file.
 - `power_consumption_anomalies.csv`: The dataset file.
