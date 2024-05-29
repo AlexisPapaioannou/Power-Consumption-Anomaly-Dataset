@@ -62,7 +62,7 @@ You can use this dataset to train machine learning models for detecting anomalie
 import pandas as pd
 
 # Load the dataset
-data = pd.read_csv('power_consumption_anomalies.csv')
+data = pd.read_csv('data/Dishwasher/Dishwasher_1/anomaly_Faulty_Thermostat/dishwasher_1_day10_ANOMALIES.csv')
 
 # Display the first few rows of the dataset
 print(data.head())
@@ -71,10 +71,10 @@ print(data.head())
 #### Preprocessing
 ```python
 # Convert the timestamp column to datetime format
-data['timestamp'] = pd.to_datetime(data['timestamp'])
+data['ctime'] = pd.to_datetime(data['ctime'])
 
 # Set the timestamp column as the index
-data.set_index('timestamp', inplace=True)
+data.set_index('ctime', inplace=True)
 
 # Display summary statistics
 print(data.describe())
@@ -86,7 +86,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import IsolationForest
 
 # Split the data into training and testing sets
-X_train, X_test = train_test_split(data[['power_consumption']], test_size=0.2, random_state=42)
+X_train, X_test = train_test_split(data[['activePower']], test_size=0.2, random_state=42)
+*
+*
+*
+*
+**
 ```
 
 ## Repository Structure
