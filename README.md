@@ -54,9 +54,14 @@ from sklearn.ensemble import IsolationForest
 X_train, X_test = train_test_split(data[['power_consumption']], test_size=0.2, random_state=42)
 ```
 
-### Repository Structure
+## Repository Structure
 - `README.md`: This readme file.
 - `data/`: Directory containing the dataset files.
+- `data/Dishwasher/`: Directory containing the dataset files for 3 different brands of Dishwashers.
+- `data/Dryer/`: Directory containing the dataset files for 1 brand of Dryer.
+- `data/Fridge/`: Directory containing the dataset files for 3 different brands of Fridge.
+- `data/Washing_Machine/`: Directory containing the dataset files for 3 different brands of Washing_Machine.
+- `data/Water_Heater/`: Directory containing the dataset files for 3 different brands of Water_Heater.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions for improving the dataset or examples, please open an issue or submit a pull request.
