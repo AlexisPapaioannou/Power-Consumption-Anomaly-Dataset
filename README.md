@@ -19,6 +19,41 @@ The dataset consists of power consumption readings from various devices. Each en
 | 2020-03-19 16:12:00 | 73               | 1             |
 | 2020-03-19 16:13:00 | 72               | 0             |
 
+### Specific Malfunctions
+
+| Device                     | Malfunction (%)   | Part                                                  |
+|:---------------------------|:-----------------|:------------------------------------------------------|
+| Refrigerators and Freezers | 10%              | Damaged Door Seals                                    |
+|                           | 23%             | Faulty Thermostats                                    |
+|                           | 50%              | Compressor                                            |
+|                           | 7.5%            | Minor                                                 |
+|                           | 15%, 70%         | Major                                                 |
+| Washing machine            | 15%             | Water Heater Malfunctions                             |
+|                           | 10%              | Sensor Malfunctions:                                  |
+|                           | 15%             | Worn Out Belts or Motors                              |
+|                           | 76%             | Heating phase                                         |
+|                           | 10%              | Minor                                                 |
+|                           | 20%, 30%         | Major                                                 |
+| Dishwashers               | 12.50            | Heating Element Issues                                |
+|                           | 7.5%            | Water Inlet Valve Problems:                           |
+|                           | 15%             | Faulty Thermostat:                                    |
+|                           | 10%              | Spray Arm Issues                                      |
+|                           | 34%            | Heating phase                                         |
+|                           | 7.5%            | Minor                                                 |
+|                           | 20%, 35%         | Major                                                 |
+| Dryer                     | 12.5%            | Clogged Lint Filter                                   |
+|                           | 15%             | Faulty Thermostat:                                    |
+|                           | 7.5%            | Worn Seals:                                           |
+|                           | 25%             | Inefficient Heating Elements or Gas Valves            |
+|                           | 7.5%            | Minor                                                 |
+|                           | 20%, 35%         | Major                                                 |
+| Water heater              | 15%             | Faulty Thermostats:                                   |
+|                           | 18%             | Sediment Build-Up                                     |
+|                           | 25%             | Malfunctioning Heating Element (for electric heaters) |
+|                           | 50%              | Slight overheating                                    |
+|                           | 10%              | Minor                                                 |
+|                           | 15%             | Major                                                 |
+
 ## Usage
 You can use this dataset to train machine learning models for detecting anomalies in power consumption data. The following is an example of how to load and preprocess the dataset using Python and pandas.
 
