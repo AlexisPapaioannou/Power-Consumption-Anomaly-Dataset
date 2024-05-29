@@ -22,7 +22,7 @@ The dataset consists of power consumption readings from various devices. Each en
 ## Usage
 You can use this dataset to train machine learning models for detecting anomalies in power consumption data. The following is an example of how to load and preprocess the dataset using Python and pandas.
 
-### Loading the Dataset
+#### Loading the Dataset
 ```python
 import pandas as pd
 
@@ -31,8 +31,9 @@ data = pd.read_csv('power_consumption_anomalies.csv')
 
 # Display the first few rows of the dataset
 print(data.head())
+```
 
-### Preprocessing
+#### Preprocessing
 ```python
 # Convert the timestamp column to datetime format
 data['timestamp'] = pd.to_datetime(data['timestamp'])
@@ -42,15 +43,17 @@ data.set_index('timestamp', inplace=True)
 
 # Display summary statistics
 print(data.describe())
+```
 
-### Example Model Training
+#### Example Model Training
 ```python
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import IsolationForest
 
 # Split the data into training and testing sets
 X_train, X_test = train_test_split(data[['power_consumption']], test_size=0.2, random_state=42)
-```text
+```
+
 ### Repository Structure
 - `README.md`: This readme file.
 - `power_consumption_anomalies.csv`: The dataset file.
@@ -58,20 +61,14 @@ X_train, X_test = train_test_split(data[['power_consumption']], test_size=0.2, r
 - `scripts/`: Python scripts for preprocessing and model training.
 
 
-### Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions for improving the dataset or examples, please open an issue or submit a pull request.
 
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Contact
+## Contact
 For any questions or issues, please contact your-email@example.com.
-# Train an Isolation Forest model
-model = IsolationForest(contamination=0.1, random_state=42)
-model.fit(X_train)
-
-# Predict anomalies on the test set
-y_pred = model.predict(X_test)
 
 
 
