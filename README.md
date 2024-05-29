@@ -56,10 +56,7 @@ X_train, X_test = train_test_split(data[['power_consumption']], test_size=0.2, r
 
 ### Repository Structure
 - `README.md`: This readme file.
-- `power_consumption_anomalies.csv`: The dataset file.
-- `notebooks/`: Jupyter notebooks with examples of data analysis and model training.
-- `scripts/`: Python scripts for preprocessing and model training.
-
+- `data/`: Directory containing the dataset files.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions for improving the dataset or examples, please open an issue or submit a pull request.
