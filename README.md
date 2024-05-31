@@ -82,6 +82,17 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 For any questions or issues, please contact your-email@example.com.
 
+## Acknowledgments
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+- **[pandas](https://pandas.pydata.org/)**
+- **[scikit-learn](https://scikit-learn.org/)**
+- **[Matplotlib](https://matplotlib.org/)**
+- **[Stack Overflow](https://stackoverflow.com/)**
+- **Open Source Community**
+- **Online Courses and Tutorials**
+
+
 
 
 
