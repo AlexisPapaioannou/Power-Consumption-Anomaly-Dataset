@@ -3,6 +3,20 @@
 ## Overview
 This repository contains a dataset of power consumption readings with anomaly patterns associated with various device malfunctions. The data can be used for developing and testing machine learning models for anomaly detection, predictive maintenance, and other related applications.
 
+## Table of Contents
+- [Dataset Description](#dataset-description)
+- [Data Fields](#data-fields)
+- [Example Data](#example-data)
+- [Specific Malfunctions](#specific-malfunctions)
+- [Usage](#usage)
+  - [Loading the Dataset](#loading-the-dataset)
+  - [Preprocessing](#preprocessing)
+  - [Example Model Training](#example-model-training)
+- [Repository Structure](#repository-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
 ## Dataset Description
 The dataset consists of power consumption readings from various devices. Each entry includes a ctime, power consumption value (activePower), and an anomaly label (label) indicating whether the reading is normal or indicative of a malfunction.
 
