@@ -30,7 +30,7 @@ The dataset consists of power consumption readings from various devices. Each en
 |---------------------|------------------|---------------|
 | 2020-03-19 16:10:00 | 77               | 0             |
 | 2020-03-19 16:11:00 | 73               | 0             |
-| 2020-03-19 16:12:00 | 73               | 1             |
+| 2020-03-19 16:12:00 | 73               | 0             |
 | 2020-03-19 16:13:00 | 72               | 0             |
 
 ### Specific Malfunctions
