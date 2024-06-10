@@ -63,18 +63,15 @@ data.set_index('ctime', inplace=True)
 print(data.describe())
 ```
 
-#### Example Model Training
+#### Plot data
 ```python
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import IsolationForest
-
-# Split the data into training and testing sets
-X_train, X_test = train_test_split(data[['activePower']], test_size=0.2, random_state=42)
-*
-*
-*
-*
-**
+plt.figure(figsize=(10, 6))
+plt.plot(data.index , data.activePower , label='Power Consumption')
+plt.xlabel('Time')
+plt.ylabel('Power Consumption')
+plt.title('Dishwasher Power Consumption with Anomalies')
+plt.legend()
+plt.show()
 ```
 
 ## Repository Structure
