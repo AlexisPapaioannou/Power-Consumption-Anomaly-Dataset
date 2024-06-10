@@ -11,7 +11,7 @@ This repository contains a dataset of power consumption readings with anomaly pa
 - [Usage](#usage)
   - [Loading the Dataset](#loading-the-dataset)
   - [Preprocessing](#preprocessing)
-  - [Example Model Training](#example-model-training)
+  - [Plot Data](#plot-data)
 - [Repository Structure](#repository-structure)
 - [Contributing](#contributing)
 - [License](#license)
