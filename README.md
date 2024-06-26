@@ -1,3 +1,6 @@
+
+###### Dishwasher AGAINNNN!!!!
+
 # Power Consumption Anomaly Dataset
 
 ## Overview
