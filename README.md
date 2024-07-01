@@ -1,4 +1,4 @@
-<a href="https://sandbox.zenodo.org/doi/10.5072/zenodo.77044"><img src="https://sandbox.zenodo.org/badge/807105539.svg" alt="DOI"></a>
+<a href="https://zenodo.org/doi/10.5281/zenodo.12607730"><img src="https://zenodo.org/badge/807105539.svg" alt="DOI"></a>
 
 
 # Power Consumption Anomaly Dataset
