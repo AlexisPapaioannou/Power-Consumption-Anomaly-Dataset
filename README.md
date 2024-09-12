@@ -105,7 +105,16 @@ Use this space to list resources you find helpful and would like to give credit 
 - **Open Source Community**
 - **Online Courses and Tutorials**
 
-
-
-
-
+## BibTeX Citation
+If you use our datasets in a scientific publication, we would appreciate using the following citations:
+```bibtex
+@article{papaioannou2024simulation,
+  title={Simulation of Malfunctions in Home Appliances’ Power Consumption},
+  author={Papaioannou, Alexios and Dimara, Asimina and Papaioannou, Christoforos and Papaioannou, Ioannis and Krinidis, Stelios and Anagnostopoulos, Christos-Nikolaos and Korkas, Christos and Kosmatopoulos, Elias and Ioannidis, Dimosthenis and Tzovaras, Dimitrios},
+  journal={Energies},
+  volume={17},
+  number={17},
+  pages={4529},
+  year={2024},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
