@@ -38,7 +38,8 @@ The dataset consists of power consumption readings from various devices. Each en
 
 ### Specific Malfunctions
 
-<img src="https://github.com/AlexisPapaioannou/Power-Consumption-Anomaly-Dataset/assets/48021731/b87d4975-b102-45f4-9569-68e1e68ed291" alt="Error Descriptions" width="400"/>
+<img src="https![Uploading Yellow Illustrated Path Design Process Timeline Infographic-1.png…]()
+://github.com/AlexisPapaioannou/Power-Consumption-Anomaly-Dataset/assets/48021731/b87d4975-b102-45f4-9569-68e1e68ed291" alt="Error Descriptions" width="400"/>
 
 ## Usage
 You can use this dataset to train machine learning models for detecting anomalies in power consumption data. The following is an example of how to load and preprocess the dataset using Python and pandas.
